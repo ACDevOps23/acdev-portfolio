@@ -17,14 +17,6 @@ const Hero = () => {
                             <span className="inline-block w-0.5 h-10 lg:h-15 bg-gray-300 ml-1 animate-cursor-blink"></span>
                         </h1>
                         <h2 className="xl:text-center lg:text-3xl text-2xl font-bold text-gray-400">Full-Stack Software Engineer</h2>
-                        {/* <div className="flex gap-6 mt-4 xl:justify-center">
-
-                        <Image src="/nodejs.png" alt="nodejs" width={80} height={10} loading="eager" className="w-10 h-10  md:h-13" /> 
-                        <Image src="/python.png" alt="python" width={70} height={10}  loading="eager" className="w-10 h-10 md:h-13" />
-                        <Image src="/atom.png" alt="react" width={70} height={10}  loading="eager" className="w-10 h-10 md:h-13"/>
-                        <Image src="/sql-server.png" alt="sql" width={70} height={10} loading="eager" className="w-10 h-10 md:h-13" />
-                        <Image src="/typescript.png" alt="typescript" width={70} height={10} loading="eager" className="w-10 h-10 md:h-13"/>
-                        </div> */}
                     </div>
                 
                 </motion.div>
