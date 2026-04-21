@@ -34,7 +34,7 @@ export default function AppleScrollSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 2.0 }}
-            className="p-7 mt-20 text-xl md:text-2xl lg:text-3xl font-semibold text-center">
+            className="md:p-7 mt-20 text-xl md:text-2xl lg:text-3xl font-semibold text-center">
             I’m a full-stack software engineer specialising in the MERN stack 
             (Node, Express, React and MongoDB). I build end-to-end applications with
             responsive frontends, well designed APIs and dependable data layers. 
