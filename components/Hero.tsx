@@ -12,7 +12,7 @@ const Hero = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 1.5 }}
                 >
-                    <div className="flex flex-col justify-center pl-20">
+                    <div className="flex flex-col justify-center items-center md:pl-20">
                         <h1 className="mt-20 lg:text-6xl text-left text-5xl font-bold text-gray-300">{"<Andrea Cimmino/>"}
                             <span className="inline-block w-0.5 h-10 lg:h-15 bg-gray-300 ml-1 animate-cursor-blink"></span>
                         </h1>
