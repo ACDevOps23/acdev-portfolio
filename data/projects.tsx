@@ -1,7 +1,8 @@
 export const sentences = [
-    "I build secure, scalable full stack applications using modern web technologies",
-	"I design and implement RESTful APIs with a focus on authentication, data integrity, and reliability.",
-    "I prioritise performance, security, and clean architecture in every system I build.",
+	"",
+    "I build modern & secure, scalable web applications.",
+	"I design and implement RESTful APIs, authentication, and reliability.",
+    "I prioritise building optimised, clean architectural solutions.",
     "I write maintainable, structured code that supports scalability and long-term growth.",
     "I adapt quickly to new technologies, continuously refining my approach.",
 	"I provide custom solutions to problems."

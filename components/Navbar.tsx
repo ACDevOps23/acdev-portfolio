@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-
+ 
     return (
         <>
             <div className="hidden md:block"> 

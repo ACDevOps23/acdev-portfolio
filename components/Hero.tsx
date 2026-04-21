@@ -13,18 +13,18 @@ const Hero = () => {
                     transition={{ duration: 1.5 }}
                 >
                     <div className="flex flex-col justify-center pl-20">
-                        <h1 className="mt-20 lg:text-6xl text-5xl font-bold text-gray-300">{"<Andrea Cimmino/>"}
+                        <h1 className="mt-20 lg:text-6xl text-left text-5xl font-bold text-gray-300">{"<Andrea Cimmino/>"}
                             <span className="inline-block w-0.5 h-10 lg:h-15 bg-gray-300 ml-1 animate-cursor-blink"></span>
                         </h1>
                         <h2 className="xl:text-center lg:text-3xl text-2xl font-bold text-gray-400">Full-Stack Software Engineer</h2>
-                        <div className="flex gap-6 mt-4 xl:justify-center">
+                        {/* <div className="flex gap-6 mt-4 xl:justify-center">
 
-                        {/* <Image src="/nodejs.png" alt="nodejs" width={80} height={10} loading="eager" className="w-10 h-10  md:h-13" /> 
+                        <Image src="/nodejs.png" alt="nodejs" width={80} height={10} loading="eager" className="w-10 h-10  md:h-13" /> 
                         <Image src="/python.png" alt="python" width={70} height={10}  loading="eager" className="w-10 h-10 md:h-13" />
                         <Image src="/atom.png" alt="react" width={70} height={10}  loading="eager" className="w-10 h-10 md:h-13"/>
                         <Image src="/sql-server.png" alt="sql" width={70} height={10} loading="eager" className="w-10 h-10 md:h-13" />
-                        <Image src="/typescript.png" alt="typescript" width={70} height={10} loading="eager" className="w-10 h-10 md:h-13"/> */}
-                        </div>
+                        <Image src="/typescript.png" alt="typescript" width={70} height={10} loading="eager" className="w-10 h-10 md:h-13"/>
+                        </div> */}
                     </div>
                 
                 </motion.div>
@@ -34,7 +34,7 @@ const Hero = () => {
                     transition={{ duration: 1.5 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }} >
-                    <div className="md:flex justify-center items-center">
+                    <div className="mt-10 md:flex justify-center items-center">
                         <Image className="drop-shadow-xl/90" src="/computer.png" width={800} height={400} loading="eager" alt="image of a computer" />
                     </div>
                 </motion.div>
