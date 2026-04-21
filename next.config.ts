@@ -2,16 +2,15 @@ import type { NextConfig } from "next";
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self';
-  style-src 'self' 'unsafe-inline';
+  script-src 'self' 'unsafe-inline' 'unsafe-eval' https:;
+  style-src 'self' 'unsafe-inline' https:;
   img-src 'self' data: https:;
-  font-src 'self' data:;
+  font-src 'self' data: https:;
   connect-src 'self' https:;
   object-src 'none';
   base-uri 'self';
   form-action 'self';
   frame-ancestors 'none';
-  upgrade-insecure-requests;
 `;
 
 const nextConfig: NextConfig = {
@@ -53,7 +52,7 @@ const nextConfig: NextConfig = {
           value: "geolocation=(), microphone=(), camera=()",
         },
 
-        // CSP (compressed to single line)
+        // CSP (compressed to single line) - allows React/Next.js inline scripts
         {
           key: "Content-Security-Policy",
           value: ContentSecurityPolicy.replace(/\n/g, ""),
